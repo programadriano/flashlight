@@ -1,0 +1,12 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Flashlight" EntryPointType="Flashlight.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Flashlight" Source="Flashlight.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone" Source="Microsoft.Phone.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Interop" Source="Microsoft.Phone.Interop.dll" />
+    <AssemblyPart x:Name="mscorlib.extensions" Source="mscorlib.extensions.dll" />
+    <AssemblyPart x:Name="System" Source="System.dll" />
+    <AssemblyPart x:Name="System.Net" Source="System.Net.dll" />
+    <AssemblyPart x:Name="System.Windows" Source="System.Windows.dll" />
+    <AssemblyPart x:Name="System.Xml" Source="System.Xml.dll" />
+  </Deployment.Parts>
+</Deployment>
